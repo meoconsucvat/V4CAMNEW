@@ -1,0 +1,533 @@
+{
+  "approved_count": 88,
+  "approved_paths": [
+    ".gitattributes",
+    ".gitignore",
+    "README.md",
+    "dist/VCAMPLUS-roothide.deb",
+    "docs/00_ARCHITECTURE.md",
+    "docs/01_SECURITY_SPEC_LAYER1_IDENTITY.md",
+    "docs/02_SECURITY_SPEC_LAYER2_NETWORK_TLS.md",
+    "docs/03_SECURITY_SPEC_LAYER3_LEASE_VERIFY.md",
+    "docs/04_VIDEO_PIPELINE_AND_IPC_SPEC.md",
+    "docs/05_ROOTHIDE_ECOSYSTEM_COMPATIBILITY.md",
+    "docs/06_SERVER_EMULATION_BLUEPRINT.md",
+    "docs/CODEX_ARM64E_A12_A16_AUDIT.md",
+    "docs/CODEX_AUDIT_REPORT.md",
+    "docs/CODEX_AUTH_DEVICE_LOCKING_IMPLEMENTATION.md",
+    "docs/CODEX_CAMERA_INJECTION_A12_A16_DIAGNOSIS.md",
+    "docs/CODEX_COMMERCIAL_REBRANDING_VERDICT.md",
+    "docs/CODEX_CROSS_AUDIT_VERDICT.md",
+    "docs/CODEX_FINAL_SIGN_OFF_VERDICT.md",
+    "docs/CODEX_FINAL_VERDICT.md",
+    "docs/CODEX_GIT_PRECOMMIT_AUDIT.md",
+    "docs/CODEX_PIPELINE_VERDICT.md",
+    "docs/CODEX_RE_AUDIT_VERDICT.md",
+    "docs/CODEX_SIGN_OFF.md",
+    "docs/CODEX_SIGN_OFF_VERDICT_V2.md",
+    "docs/CODEX_SIGN_OFF_VERDICT_V3.md",
+    "docs/CODEX_TELEGRAM_BOT_ARCHITECTURE_VERDICT.md",
+    "docs/CODEX_UI_AND_TAG1_AUDIT.md",
+    "docs/CODEX_VCAMPLUS_AUDIT_REPORT.md",
+    "docs/GIT_STAGING_APPROVED.txt",
+    "docs/GIT_STAGING_MANIFEST.json",
+    "docs/OPERATIONS_MANUAL.md",
+    "docs/PROGRESS_TRACKER.md",
+    "scripts/audit_arm64e_artifacts.py",
+    "scripts/audit_camera_policy_data.py",
+    "scripts/audit_commercial_server_isolated.py",
+    "scripts/audit_final_admin_cli.py",
+    "scripts/audit_final_package.py",
+    "scripts/audit_git_precommit.py",
+    "scripts/audit_login_notifications_isolated.py",
+    "scripts/audit_overlay_static.py",
+    "scripts/audit_reaudit_admin_cli.py",
+    "scripts/audit_reaudit_server_edges.py",
+    "scripts/audit_rebranding_assets.py",
+    "scripts/audit_rebranding_client.py",
+    "scripts/audit_rebranding_strings.py",
+    "scripts/audit_tag1_layout.py",
+    "scripts/audit_telegram_bot_isolated.py",
+    "scripts/audit_telegram_http_isolated.py",
+    "scripts/audit_telegram_store_isolated.py",
+    "scripts/audit_ui_raw_evidence.py",
+    "scripts/audit_vcamplus_archive.py",
+    "scripts/audit_vcamplus_macho.py",
+    "scripts/audit_vcamplus_messages.py",
+    "scripts/build_auth_refactor_release.py",
+    "scripts/build_commercial_deb.py",
+    "scripts/build_custom_deb.py",
+    "scripts/camera_diagnostics/diagnose_camera.sh",
+    "scripts/camera_diagnostics/repair_camera_read_access.sh",
+    "scripts/cross_audit_mock_probe.py",
+    "scripts/cross_audit_verify.py",
+    "scripts/crypto_engine.py",
+    "scripts/lease_generator.py",
+    "scripts/local_renewal_service.py",
+    "scripts/patch_authority_in_binaries.py",
+    "scripts/patch_production_binaries.py",
+    "scripts/prepare_arm64e_audit_proposals.py",
+    "scripts/prepare_camera_preview_experiment.py",
+    "scripts/sign_off_verify.py",
+    "scripts/test_auth_device_locking.py",
+    "scripts/test_camera_diagnostic_helpers.py",
+    "scripts/test_store_auth_transactions.py",
+    "scripts/verify_audit_artifacts.py",
+    "scripts/verify_camera_diagnosis.py",
+    "scripts/verify_v3_code_directory.py",
+    "scripts/verify_v3_retry.py",
+    "scripts/vps_server.py",
+    "server/DEPLOY_AUTH_REFACTOR.md",
+    "server/admin_cli.py",
+    "server/nginx.conf",
+    "server/notify.py",
+    "server/server.py",
+    "server/store.py",
+    "server/telegram_bot.py",
+    "server/vcnext-bot.service",
+    "server/vcnext.env.example",
+    "server/vcnext.service",
+    "vcam/README.md",
+    "vcam/mock_feeder.py"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 214,
+      "sha256": "1415a97cc75e7601bec150d6d19b2d05177da6f9daaee8eaeef98b2e56f73faa"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1437,
+      "sha256": "4feeff1b15d693e1e0fb83eda1515be590562bf42b0b7fe0d1f2fb634f2ce55c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2981,
+      "sha256": "ec29271f907236237ce8003c759cc21e08744a26c119b96ce8e5ca88195507ad"
+    },
+    {
+      "path": "dist/VCAMPLUS-roothide.deb",
+      "bytes": 479244,
+      "sha256": "6aa918aa16d93a39299740d9fd3a4bfe24072bc3d2ba90f7b72aa3568de4b4b9"
+    },
+    {
+      "path": "docs/00_ARCHITECTURE.md",
+      "bytes": 6792,
+      "sha256": "a5cc192e22eb5f88759740b9cf9388a735e547b9b5efe7f77728970c2b34b6ec"
+    },
+    {
+      "path": "docs/01_SECURITY_SPEC_LAYER1_IDENTITY.md",
+      "bytes": 4028,
+      "sha256": "d4f1678ac42b975c83e1df9ee5d3ceb6c39a15413065c6db33851ae90d6933da"
+    },
+    {
+      "path": "docs/02_SECURITY_SPEC_LAYER2_NETWORK_TLS.md",
+      "bytes": 6249,
+      "sha256": "598b4dac81c12204b38bb377cefe3ee933cab13f3da25d20cae4dc1edc236dbb"
+    },
+    {
+      "path": "docs/03_SECURITY_SPEC_LAYER3_LEASE_VERIFY.md",
+      "bytes": 6857,
+      "sha256": "d9ad1f31ea1abb71f3c8fe209c9ba16927da2f21abe04be21b11bc701384eabd"
+    },
+    {
+      "path": "docs/04_VIDEO_PIPELINE_AND_IPC_SPEC.md",
+      "bytes": 5881,
+      "sha256": "1af6cea22e3dab934b1bb8a97a743919b1e1f09340e59770e4679690a6340479"
+    },
+    {
+      "path": "docs/05_ROOTHIDE_ECOSYSTEM_COMPATIBILITY.md",
+      "bytes": 26057,
+      "sha256": "45a89fddcf8d3520a40698deb747fa958b9a4b632a0716dbe09314a7e0add4f7"
+    },
+    {
+      "path": "docs/06_SERVER_EMULATION_BLUEPRINT.md",
+      "bytes": 12153,
+      "sha256": "6681dc1e4eb90ae216862d131e81d5b219ffb344b88f7370ab5b862ae34d2460"
+    },
+    {
+      "path": "docs/CODEX_ARM64E_A12_A16_AUDIT.md",
+      "bytes": 45208,
+      "sha256": "5d9afa04dd16dec669ff94ef9465eead720e560d8266794363e9123c3fee6706"
+    },
+    {
+      "path": "docs/CODEX_AUDIT_REPORT.md",
+      "bytes": 27489,
+      "sha256": "ad30d6eff6cca45561f395728bfeb475824f351359cb8e9603d80b1119b5c2ee"
+    },
+    {
+      "path": "docs/CODEX_AUTH_DEVICE_LOCKING_IMPLEMENTATION.md",
+      "bytes": 8354,
+      "sha256": "4c59d588a98426888714f83eb3dac5e482daa5ae3af543a281e72e7a11bcac8f"
+    },
+    {
+      "path": "docs/CODEX_CAMERA_INJECTION_A12_A16_DIAGNOSIS.md",
+      "bytes": 28520,
+      "sha256": "adf477d9f5b7401da77b9df037d6e2b3f04d7198a0f8a384a8a4845bb81399aa"
+    },
+    {
+      "path": "docs/CODEX_COMMERCIAL_REBRANDING_VERDICT.md",
+      "bytes": 28188,
+      "sha256": "f18a3c15608c3b24da2eee2856d0998e9b011e2860c6b060744fbf9e6c31fc3e"
+    },
+    {
+      "path": "docs/CODEX_CROSS_AUDIT_VERDICT.md",
+      "bytes": 29781,
+      "sha256": "5daa76752e1fcd38d12067cd20daf5f8507806fc031779f8565cc7c8042d0b45"
+    },
+    {
+      "path": "docs/CODEX_FINAL_SIGN_OFF_VERDICT.md",
+      "bytes": 37570,
+      "sha256": "b586d9c3455552cdb4cd7f882f4e0239cdcbc30f3b75b0e2c073ab4afc3d43f5"
+    },
+    {
+      "path": "docs/CODEX_FINAL_VERDICT.md",
+      "bytes": 21395,
+      "sha256": "110821df2c6b35b00f3b67d30a915834c508f3a2079a2d9309f7a26056c0bf5c"
+    },
+    {
+      "path": "docs/CODEX_GIT_PRECOMMIT_AUDIT.md",
+      "bytes": 13505,
+      "sha256": "50857b4b6eff227df89b343a41823ffc10ba0381083e0744f5e8bb8770fd3c53"
+    },
+    {
+      "path": "docs/CODEX_PIPELINE_VERDICT.md",
+      "bytes": 32622,
+      "sha256": "d1faacbc9c03897fc4b73aa36ac6ee8e832dbdb301d4f86b347db48b03bbf19b"
+    },
+    {
+      "path": "docs/CODEX_RE_AUDIT_VERDICT.md",
+      "bytes": 15451,
+      "sha256": "1720fd78b78500be453867d58e3c5598479c8131bb14fac35cf269ada2d06102"
+    },
+    {
+      "path": "docs/CODEX_SIGN_OFF.md",
+      "bytes": 20625,
+      "sha256": "80ee278642024c543ac64a823344cb013375075450b0de19f7e446a80ee9abeb"
+    },
+    {
+      "path": "docs/CODEX_SIGN_OFF_VERDICT_V2.md",
+      "bytes": 8336,
+      "sha256": "1f84a2c9fec0082125ae563dcb296737aa738993d926c1758c76f9d7927ffbf5"
+    },
+    {
+      "path": "docs/CODEX_SIGN_OFF_VERDICT_V3.md",
+      "bytes": 10554,
+      "sha256": "5ed750d5ef789ac58e28bef3349450108948161ff13535e8d45363f0898c2779"
+    },
+    {
+      "path": "docs/CODEX_TELEGRAM_BOT_ARCHITECTURE_VERDICT.md",
+      "bytes": 36907,
+      "sha256": "376a98e47f9808419ba1f36ba1b000ee902a5c5e4f753423d07530f6d745a3cb"
+    },
+    {
+      "path": "docs/CODEX_UI_AND_TAG1_AUDIT.md",
+      "bytes": 26208,
+      "sha256": "16ab64e2c851002dc437bb2fd33914b2fdabb0a62e31d25fce0904dfabbcadf1"
+    },
+    {
+      "path": "docs/CODEX_VCAMPLUS_AUDIT_REPORT.md",
+      "bytes": 23283,
+      "sha256": "e899a55702a3f42b6d9eb37046f417c9834b5656aa0aae52ce9a64ee8a866a5b"
+    },
+    {
+      "path": "docs/GIT_STAGING_APPROVED.txt",
+      "bytes": 2868,
+      "sha256": "3e2bb195325cda002c88ce61edc728eb6a826a7e0e6cd6dbd624f850f1754469"
+    },
+    {
+      "path": "docs/OPERATIONS_MANUAL.md",
+      "bytes": 10704,
+      "sha256": "1c223a3bd516ea60318ba43a3ae3edf6fd9f4dc25bf784610b988353064d71cf"
+    },
+    {
+      "path": "docs/PROGRESS_TRACKER.md",
+      "bytes": 6448,
+      "sha256": "1c3885c89c9dab9ddb9646a0c09ad810cea05b715c04ff0bc921ce42f60ad682"
+    },
+    {
+      "path": "scripts/audit_arm64e_artifacts.py",
+      "bytes": 9081,
+      "sha256": "f02156301e94d2937b6bf3836d10629e2f140c8547e737133088a8cbdd49de49"
+    },
+    {
+      "path": "scripts/audit_camera_policy_data.py",
+      "bytes": 8011,
+      "sha256": "ac83a8c4060071e131fbdbedb07d9f1fd87c2e5f6b4f2fb15b1e402429e5ce1f"
+    },
+    {
+      "path": "scripts/audit_commercial_server_isolated.py",
+      "bytes": 20738,
+      "sha256": "f3dc3b9880a884d7b13ac3a1f91fd7af50edbc089f8c158154348f7d1de5c9f9"
+    },
+    {
+      "path": "scripts/audit_final_admin_cli.py",
+      "bytes": 8944,
+      "sha256": "2aaa4d4c649534562c8b9ecbdefac2ce745e7c63d32e8244c632603a3ca82009"
+    },
+    {
+      "path": "scripts/audit_final_package.py",
+      "bytes": 10291,
+      "sha256": "d8bd456021873a5deafa2459c6c961e79d2c65a54f810271f3af53afbc64ec9b"
+    },
+    {
+      "path": "scripts/audit_git_precommit.py",
+      "bytes": 16900,
+      "sha256": "082c4abc3deaab05b15b6a0217267c2c26bf3cddecb79ad33a2d6c7e464f6a06"
+    },
+    {
+      "path": "scripts/audit_login_notifications_isolated.py",
+      "bytes": 15112,
+      "sha256": "3e366f8a65010e251e397baf3bf2b5d0e139455717eb994578f2d24dcb0485bb"
+    },
+    {
+      "path": "scripts/audit_overlay_static.py",
+      "bytes": 6199,
+      "sha256": "d28abf9a4b93d44424251690eb0ac7b5bff891309c466431618a3363875d3bc2"
+    },
+    {
+      "path": "scripts/audit_reaudit_admin_cli.py",
+      "bytes": 10498,
+      "sha256": "32e870516c2e9faf921eb915192dd284c552971fa779c30a17100ad4daa435b8"
+    },
+    {
+      "path": "scripts/audit_reaudit_server_edges.py",
+      "bytes": 16450,
+      "sha256": "474727eb83cd263219c3eed483a850e56ed4e38871fecaea335a91892cf8c04a"
+    },
+    {
+      "path": "scripts/audit_rebranding_assets.py",
+      "bytes": 6496,
+      "sha256": "6e744bb30256af50d80d1e10f185244f9bf3ba16d5ed64912c60fa5629bd5a1d"
+    },
+    {
+      "path": "scripts/audit_rebranding_client.py",
+      "bytes": 6250,
+      "sha256": "c0450ff32eb6144d56b9fa5e878b5480f6c183282b844cd774f71e71c88abbf3"
+    },
+    {
+      "path": "scripts/audit_rebranding_strings.py",
+      "bytes": 9402,
+      "sha256": "35a62a6c3c2931db677f1f1e65733beb8f77e3e801b8aabf848af557d9516527"
+    },
+    {
+      "path": "scripts/audit_tag1_layout.py",
+      "bytes": 12333,
+      "sha256": "5df2feaeb703431e1c04a9d41570efa4e5e6c22c6d95f6c9ecd1b2efa20fb363"
+    },
+    {
+      "path": "scripts/audit_telegram_bot_isolated.py",
+      "bytes": 11419,
+      "sha256": "ca16ffb491cd694960f3da17b136c1a51791afd1558c57295742c3169a8fcb88"
+    },
+    {
+      "path": "scripts/audit_telegram_http_isolated.py",
+      "bytes": 20677,
+      "sha256": "a2b4240d3582c96eeafd948b5464dc41fef28b758d5fd0b28e6617e848ae498e"
+    },
+    {
+      "path": "scripts/audit_telegram_store_isolated.py",
+      "bytes": 14752,
+      "sha256": "44b7e07c4299d82bd8f1db190ea2cf0f5bc6c479cac0647c05511054d8ff15fe"
+    },
+    {
+      "path": "scripts/audit_ui_raw_evidence.py",
+      "bytes": 3862,
+      "sha256": "38fd56f31c0e88ce9a2da18a80b11026580f988ea13488a5c32d170ecb992c3b"
+    },
+    {
+      "path": "scripts/audit_vcamplus_archive.py",
+      "bytes": 16453,
+      "sha256": "8f00ba9c45bded6afdbc7cb3fe19a3d164b042c8b6cbcb0a3eb5495168f69eb6"
+    },
+    {
+      "path": "scripts/audit_vcamplus_macho.py",
+      "bytes": 19446,
+      "sha256": "fa6241ef946325635cdc0d84c517ace1c5e925a10451101b51cbaca3bc93ffe9"
+    },
+    {
+      "path": "scripts/audit_vcamplus_messages.py",
+      "bytes": 14182,
+      "sha256": "2f2665794af3b71a9cc47bfb8aea771f4dd441fee4b9dc08c705f7906819d5fd"
+    },
+    {
+      "path": "scripts/build_auth_refactor_release.py",
+      "bytes": 4526,
+      "sha256": "4a24103c28c9c1b53c2e21b04a2ee9bbae1f7df6075310b0f47813601bc9cf63"
+    },
+    {
+      "path": "scripts/build_commercial_deb.py",
+      "bytes": 11712,
+      "sha256": "e1dd3262f27678c4298d969b18067d35488204d6c7ab18f5d981a0dc8b2c6d74"
+    },
+    {
+      "path": "scripts/build_custom_deb.py",
+      "bytes": 7307,
+      "sha256": "b61420902f896f33864ffee1c0f1b95fda9ebd946670a8b04921a390b89d2eb6"
+    },
+    {
+      "path": "scripts/camera_diagnostics/diagnose_camera.sh",
+      "bytes": 7960,
+      "sha256": "4c09fe899146fc1ffb92f84fba533115f5ec772a0607324b20ce9da0bbd24cee"
+    },
+    {
+      "path": "scripts/camera_diagnostics/repair_camera_read_access.sh",
+      "bytes": 6822,
+      "sha256": "eb0cbad22bf6681ca3eea85deefa48a8432e79a841d925206486143cdcffc375"
+    },
+    {
+      "path": "scripts/cross_audit_mock_probe.py",
+      "bytes": 3251,
+      "sha256": "06ddb4f49665cdfabfe27e1360715cf243b98c76001d0d1af3c678f930a9f915"
+    },
+    {
+      "path": "scripts/cross_audit_verify.py",
+      "bytes": 13050,
+      "sha256": "b646965cbd06a2dc6d7327b88ea05c937491a979845e65d934e27ddc9e9f662e"
+    },
+    {
+      "path": "scripts/crypto_engine.py",
+      "bytes": 6662,
+      "sha256": "52d61791857f9213d4b64d0b792a8a8bfa5fed81c695ea58b60589eb92e92d72"
+    },
+    {
+      "path": "scripts/lease_generator.py",
+      "bytes": 10731,
+      "sha256": "b30fbf2b3e052fc01a88bd07d3bba6399e3322311059b6d66a41caa31a1eeff5"
+    },
+    {
+      "path": "scripts/local_renewal_service.py",
+      "bytes": 11344,
+      "sha256": "81480c2d05b40159b342f18995c0576b6040214adeb44f952df3a1bcd12a66b2"
+    },
+    {
+      "path": "scripts/patch_authority_in_binaries.py",
+      "bytes": 11365,
+      "sha256": "2c6950f251729169b4e255c4a61223e8de00e4c3b640488ca11c0da61abec344"
+    },
+    {
+      "path": "scripts/patch_production_binaries.py",
+      "bytes": 11978,
+      "sha256": "3b6ff26669cba23212d8a737720ba07feb73f220f361cc271f5efa622619eef1"
+    },
+    {
+      "path": "scripts/prepare_arm64e_audit_proposals.py",
+      "bytes": 9676,
+      "sha256": "5cc14ff2b296bc46e351e25ccc4f78875df24ace907b11ccaaba8bec0c46d8b8"
+    },
+    {
+      "path": "scripts/prepare_camera_preview_experiment.py",
+      "bytes": 9428,
+      "sha256": "d880f94156bfaec6da7d8aa7874b36fe83558b9514c6f15465a77634b156a949"
+    },
+    {
+      "path": "scripts/sign_off_verify.py",
+      "bytes": 14106,
+      "sha256": "62cc4c354be3e2e86b257579bbadc2400e982fc5264c79d02cffb93200cadd0e"
+    },
+    {
+      "path": "scripts/test_auth_device_locking.py",
+      "bytes": 41130,
+      "sha256": "266bafb9e744b16506f50b3eb09ff4a0e62b52101efdef2b0944969e658fc452"
+    },
+    {
+      "path": "scripts/test_camera_diagnostic_helpers.py",
+      "bytes": 6554,
+      "sha256": "213c4866972c12e5607f74cf8108d23cf6b8835b020897cac2187e5267d4c6ae"
+    },
+    {
+      "path": "scripts/test_store_auth_transactions.py",
+      "bytes": 19602,
+      "sha256": "f35b1b447a987c2461ced27baff3bc79bc21516a0fd526b69af8e7815c97c0fe"
+    },
+    {
+      "path": "scripts/verify_audit_artifacts.py",
+      "bytes": 1844,
+      "sha256": "b1ec3173a5852a1a7a88c0e13b3c17e81579f373512285729823569a11c18561"
+    },
+    {
+      "path": "scripts/verify_camera_diagnosis.py",
+      "bytes": 5684,
+      "sha256": "0eb8f7bcfcd5d278416cec4d1d63cd0bbd658541c9b56238aa80d19b9f999be5"
+    },
+    {
+      "path": "scripts/verify_v3_code_directory.py",
+      "bytes": 21325,
+      "sha256": "646680c78f288a6c77d354f9c44b6576b9d86e4c23909bd9448771a8b0004efe"
+    },
+    {
+      "path": "scripts/verify_v3_retry.py",
+      "bytes": 4693,
+      "sha256": "4d2d87c6b78ddb45c3609431e407521d36b20b11406639a290e9bd7f75e1451b"
+    },
+    {
+      "path": "scripts/vps_server.py",
+      "bytes": 10823,
+      "sha256": "af606a63a15d38fc0a0a1667ca2ff20ad368d69688dd4ce2022128428f250dc7"
+    },
+    {
+      "path": "server/DEPLOY_AUTH_REFACTOR.md",
+      "bytes": 9736,
+      "sha256": "fa781f096d7798a44a33df923a648a7240566fac304122b6fcee086f52dd873f"
+    },
+    {
+      "path": "server/admin_cli.py",
+      "bytes": 11495,
+      "sha256": "721ff2550e2d540778a7320793eedcf867dc68e2827e6856e4cf05cc09b3d00b"
+    },
+    {
+      "path": "server/nginx.conf",
+      "bytes": 1398,
+      "sha256": "23831e44beb5837e5c747149a32768f76d9a6bcbb45b4459a551525b1096bc83"
+    },
+    {
+      "path": "server/notify.py",
+      "bytes": 11839,
+      "sha256": "a4558aa67d5e53c2cfe054e273a3757080894ed4315e24be91115a6125f4dd72"
+    },
+    {
+      "path": "server/server.py",
+      "bytes": 23119,
+      "sha256": "f9260b868054f2f708fe1f97e4d630b96ab0a586d8ba5f4508468952c1ce3c20"
+    },
+    {
+      "path": "server/store.py",
+      "bytes": 37038,
+      "sha256": "9c874f27d89fa5966d753778a067656d5bf6b4ffbf848e99c544ba71e0ae7264"
+    },
+    {
+      "path": "server/telegram_bot.py",
+      "bytes": 43293,
+      "sha256": "5d52b22c134f2da6fa63bb937947145554969cb418a2957ed96dbf6c8006d2af"
+    },
+    {
+      "path": "server/vcnext-bot.service",
+      "bytes": 406,
+      "sha256": "98e38d41db7ecf3a275d3f061a217057b9df99e40909edbc04499f74eb575c39"
+    },
+    {
+      "path": "server/vcnext.env.example",
+      "bytes": 575,
+      "sha256": "14ebf3440197d7f7a38998dd4c276500e2f703d0c17ac6a360a938fff72f6f3e"
+    },
+    {
+      "path": "server/vcnext.service",
+      "bytes": 326,
+      "sha256": "9550a08fe5413b8f147f0443687a01b0230d0bcf73e6333fd3706c5b2cecc0d3"
+    },
+    {
+      "path": "vcam/README.md",
+      "bytes": 6009,
+      "sha256": "da5bbb134ab588aad3b550421ff257a1b7e247fe6e73c915e9872596292df058"
+    },
+    {
+      "path": "vcam/mock_feeder.py",
+      "bytes": 3959,
+      "sha256": "10c5ed5b35c65b869608f773caf29a17d15a4e297439b40e2e2f2ea6c514cdce"
+    }
+  ],
+  "manifest_self_hash": "Excluded to avoid a circular checksum; scan before staging.",
+  "scope": "Exact inspected snapshot only",
+  "zero_unresolved_secret_findings": true
+}

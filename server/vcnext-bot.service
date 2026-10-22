@@ -1,0 +1,17 @@
+[Unit]
+Description=VCNext Telegram Administration Bot
+After=network.target vcnext.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/vcnext_server
+EnvironmentFile=/opt/vcnext_server/vcnext.env
+UMask=0077
+Environment=TELEGRAM_OWNER_IDS=5137016124
+ExecStart=/usr/bin/python3 -u /opt/vcnext_server/telegram_bot.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

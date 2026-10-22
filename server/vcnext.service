@@ -1,0 +1,16 @@
+[Unit]
+Description=VCNext Licensing and Authority Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/vcnext_server
+EnvironmentFile=/opt/vcnext_server/vcnext.env
+UMask=0077
+ExecStart=/usr/bin/python3 /opt/vcnext_server/server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

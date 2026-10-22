@@ -1,0 +1,93 @@
+# Default-deny at the repository root. Keep operational material on disk.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/server/
+!/scripts/
+!/vcam/
+!/docs/
+!/dist/
+
+# Service source and reviewed non-secret deployment templates only.
+/server/*
+!/server/*.py
+!/server/*.md
+!/server/*.service
+!/server/nginx.conf
+!/server/vcnext.env.example
+
+# First-party automation and on-device diagnostic source.
+/scripts/*
+!/scripts/*.py
+!/scripts/camera_diagnostics/
+/scripts/camera_diagnostics/*
+!/scripts/camera_diagnostics/*.sh
+
+# OBS source/docs; no imported media or generated stream output.
+/vcam/*
+!/vcam/*.py
+!/vcam/*.md
+
+# Keep authored reports. Raw RE databases, captures and exported evidence stay local.
+/docs/*
+!/docs/*.md
+!/docs/GIT_STAGING_APPROVED.txt
+!/docs/GIT_STAGING_MANIFEST.json
+
+# Only the reviewed commercial package may be versioned from dist.
+/dist/*
+!/dist/VCAMPLUS-roothide.deb
+
+# Defense in depth, including future files in allowed source directories.
+**/.git/
+**/.codex-backups/
+**/__pycache__/
+*.py[cod]
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+.env
+.env.*
+*.env
+*.env.*
+*.db
+*.db-*
+*.sqlite*
+*.sql
+*.dump
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+*.log
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.*
+*.tgz
+*.vcnbackup
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+node_modules/
+.venv/
+venv/
+
+# This one template was explicitly reviewed: placeholders only.
+!/server/vcnext.env.example
